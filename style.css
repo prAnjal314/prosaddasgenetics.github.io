@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 60px;
+    background: #dfc7c7 ;
+}
+
+.main {
+    background: whitesmoke;
+    display: flex;
+    height: 90vh;
+    /*background: yellow;*/
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul{
+    display: flex;
+    height: 60px;
+    /*text-align: center;*/
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    padding: 3vh 2vw 3vh 2vw;
+    margin: auto 0px;
+}
+.navbar ul li:hover{
+    background: whitesmoke;
+}
+.navbar ul li a{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    /*font-weight: ;*/
+    text-decoration: none;
+}
+
+.infocontainer {
+    display: flex;
+    /*background: red;*/
+    height: 80vh;
+    width: 90vw;
+    margin: 40px auto;
+}
+.about{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+/*.about div{
+    margin: 0.5vh 0vh;
+}
+*/
+.hello{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.name{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.designation{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 6px;
+}
+
+.profilepic img{
+    /*box-shadow: 0 0px 6px 0 rgba(0, 0, 0);*/
+    height: 80vh;
+    border-radius: 40vh;
+}
